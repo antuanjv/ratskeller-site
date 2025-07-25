@@ -1,0 +1,18 @@
+---
+import menuData from '../content/menu.json';
+const dishes = menuData;
+---
+<section id="menu" class="py-20 px-4 max-w-5xl mx-auto">
+  <h2 class="text-4xl font-bold text-center mb-12">Speisekarte</h2>
+  <div class="grid md:grid-cols-2 gap-8">
+    {dishes.map(item => (
+      <div class="bg-white rounded shadow p-6">
+        <div class="flex justify-between items-center">
+          <strong class="text-xl">{item.title}</strong>
+          <span class="text-brand-gold font-bold text-xl">€{item.price.toFixed(2)}</span>
+        </div>
+        <p class="mt-2 text-gray-600">{item.desc}</p>
+      </div>
+    ))}
+  </div>
+</section>
