@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+const positions = [
+  { title:"Servicekraft (m/w/d)", desc:"Abends, 30–35 h/Woche" },
+  { title:"Aushilfe Küche (m/w/d)", desc:"Wochenende & Feiertage" }
+];
+---
+<Layout title="Jobs – Ratskeller Saarbrücken">
+  <section class="py-20 px-4 max-w-4xl mx-auto">
+    <h1 class="text-4xl font-bold mb-6">Wir suchen Verstärkung</h1>
+    {positions.map(p => (
+      <div class="bg-white rounded shadow p-6 mb-4">
+        <h2 class="text-xl font-bold">{p.title}</h2>
+        <p>{p.desc}</p>
+        <a href="mailto:jobs@ratskeller-saarbruecken.de" class="text-brand-gold underline">Bewerben</a>
+      </div>
+    ))}
+  </section>
+</Layout>
