@@ -1,0 +1,8 @@
+[
+  { "title":"Schweinshaxe","price":13.5,"desc":"Knusprig gebraten mit Kartoffel-Speck-Gemüse","category":"Hauptgericht","tags":["GF"] },
+  { "title":"Rinderrouladen","price":14.9,"desc":"Hausgemacht, mit Rotkohl und Semmelknödeln","category":"Hauptgericht","tags":[] },
+  { "title":"Saarländische Schales","price":12.4,"desc":"Kartoffeln, Speck, Zwiebeln, Spiegelei","category":"Hauptgericht","tags":["GF"] },
+  { "title":"Veggie Käsespätzle","price":11.0,"desc":"Mit Bergkäse und Röstzwiebeln","category":"Vegetarisch","tags":["V"] },
+  { "title":"Gebratene Champignons","price":8.5,"desc":"Mit Knoblauch und Brot","category":"Vorspeise","tags":["VG"] },
+  { "title":"Hausgemachte Kaiserschmarrn","price":6.5,"desc":"Mit Apfelmus","category":"Dessert","tags":["V"] }
+]
